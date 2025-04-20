@@ -23,12 +23,12 @@ while True:
     # Press 's' to save the image
     if key == ord('s'):
         cv2.imwrite(inp + ".png", frame)
-        print("✅ Image saved as", inp + ".png")
+        print("Image saved as", inp + ".png")
         break
 
     # Press 'q' to quit without saving
     elif key == ord('q'):
-        print("❌ Exiting without saving.")
+        print("Exiting without saving.")
         break
 
 cam.release()
